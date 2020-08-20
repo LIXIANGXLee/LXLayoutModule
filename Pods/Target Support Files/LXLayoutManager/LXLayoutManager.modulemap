@@ -1,0 +1,6 @@
+framework module LXLayoutManager {
+  umbrella header "LXLayoutManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

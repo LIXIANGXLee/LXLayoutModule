@@ -1,0 +1,16 @@
+PODS:
+  - LXLayoutManager (1.0.0)
+
+DEPENDENCIES:
+  - LXLayoutManager (from `./`)
+
+EXTERNAL SOURCES:
+  LXLayoutManager:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  LXLayoutManager: 831f3d9d6db5433cfc8c1f801d8ac14ef2fb6cfb
+
+PODFILE CHECKSUM: 48b35c6227714f9c354f21d517d842feffb452d6
+
+COCOAPODS: 1.9.3

@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B4681E7319B2A03C26D52CE /* Pods_LXLayoutModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8963C18090DB53FC8CC7E38 /* Pods_LXLayoutModule.framework */; };
 		762C52CC24EE5446008DFB57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C52CB24EE5446008DFB57 /* AppDelegate.swift */; };
-		762C52CE24EE5446008DFB57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C52CD24EE5446008DFB57 /* SceneDelegate.swift */; };
-		762C52D024EE5446008DFB57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C52CF24EE5446008DFB57 /* ViewController.swift */; };
-		762C52D324EE5446008DFB57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762C52D124EE5446008DFB57 /* Main.storyboard */; };
+		762C52D024EE5446008DFB57 /* LineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C52CF24EE5446008DFB57 /* LineViewController.swift */; };
 		762C52D524EE5447008DFB57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762C52D424EE5447008DFB57 /* Assets.xcassets */; };
 		762C52D824EE5447008DFB57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762C52D624EE5447008DFB57 /* LaunchScreen.storyboard */; };
+		762C52E224EE561B008DFB57 /* LXLayoutManager.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 762C52DF24EE561B008DFB57 /* LXLayoutManager.podspec */; };
+		762C52EB24EEA2F1008DFB57 /* WaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C52EA24EEA2F1008DFB57 /* WaterViewController.swift */; };
+		762C52ED24EEA67A008DFB57 /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C52EC24EEA67A008DFB57 /* NormalViewController.swift */; };
+		762C52F024EEA82A008DFB57 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C52EE24EEA82A008DFB57 /* MainViewController.swift */; };
+		762C52F124EEA82A008DFB57 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 762C52EF24EEA82A008DFB57 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55DC16981A4DCA7235108331 /* Pods-LXLayoutModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXLayoutModule.release.xcconfig"; path = "Target Support Files/Pods-LXLayoutModule/Pods-LXLayoutModule.release.xcconfig"; sourceTree = "<group>"; };
 		762C52C824EE5446008DFB57 /* LXLayoutModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXLayoutModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		762C52CB24EE5446008DFB57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		762C52CD24EE5446008DFB57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		762C52CF24EE5446008DFB57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		762C52D224EE5446008DFB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		762C52CF24EE5446008DFB57 /* LineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineViewController.swift; sourceTree = "<group>"; };
 		762C52D424EE5447008DFB57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		762C52D724EE5447008DFB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		762C52D924EE5447008DFB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		762C52DF24EE561B008DFB57 /* LXLayoutManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LXLayoutManager.podspec; sourceTree = "<group>"; };
+		762C52EA24EEA2F1008DFB57 /* WaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterViewController.swift; sourceTree = "<group>"; };
+		762C52EC24EEA67A008DFB57 /* NormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
+		762C52EE24EEA82A008DFB57 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		762C52EF24EEA82A008DFB57 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		B8963C18090DB53FC8CC7E38 /* Pods_LXLayoutModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXLayoutModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E5A33C27426EB32C384D2 /* Pods-LXLayoutModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXLayoutModule.debug.xcconfig"; path = "Target Support Files/Pods-LXLayoutModule/Pods-LXLayoutModule.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B4681E7319B2A03C26D52CE /* Pods_LXLayoutModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A985B399B8DC6B8086EB489 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E5A33C27426EB32C384D2 /* Pods-LXLayoutModule.debug.xcconfig */,
+				55DC16981A4DCA7235108331 /* Pods-LXLayoutModule.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A8799F7C2836260655C60B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8963C18090DB53FC8CC7E38 /* Pods_LXLayoutModule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		762C52BF24EE5446008DFB57 = {
 			isa = PBXGroup;
 			children = (
+				762C52DF24EE561B008DFB57 /* LXLayoutManager.podspec */,
 				762C52CA24EE5446008DFB57 /* LXLayoutModule */,
 				762C52C924EE5446008DFB57 /* Products */,
+				4A985B399B8DC6B8086EB489 /* Pods */,
+				6A8799F7C2836260655C60B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +88,14 @@
 			isa = PBXGroup;
 			children = (
 				762C52CB24EE5446008DFB57 /* AppDelegate.swift */,
-				762C52CD24EE5446008DFB57 /* SceneDelegate.swift */,
-				762C52CF24EE5446008DFB57 /* ViewController.swift */,
-				762C52D124EE5446008DFB57 /* Main.storyboard */,
+				762C52CF24EE5446008DFB57 /* LineViewController.swift */,
 				762C52D424EE5447008DFB57 /* Assets.xcassets */,
 				762C52D624EE5447008DFB57 /* LaunchScreen.storyboard */,
 				762C52D924EE5447008DFB57 /* Info.plist */,
+				762C52EA24EEA2F1008DFB57 /* WaterViewController.swift */,
+				762C52EC24EEA67A008DFB57 /* NormalViewController.swift */,
+				762C52EE24EEA82A008DFB57 /* MainViewController.swift */,
+				762C52EF24EEA82A008DFB57 /* MainViewController.xib */,
 			);
 			path = LXLayoutModule;
 			sourceTree = "<group>";
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 762C52DC24EE5447008DFB57 /* Build configuration list for PBXNativeTarget "LXLayoutModule" */;
 			buildPhases = (
+				BA61CB47D25CD5954AE8A712 /* [CP] Check Pods Manifest.lock */,
 				762C52C424EE5446008DFB57 /* Sources */,
 				762C52C524EE5446008DFB57 /* Frameworks */,
 				762C52C624EE5446008DFB57 /* Resources */,
+				9030334AC7DAFB3DAC67DC86 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +160,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				762C52E224EE561B008DFB57 /* LXLayoutManager.podspec in Resources */,
 				762C52D824EE5447008DFB57 /* LaunchScreen.storyboard in Resources */,
 				762C52D524EE5447008DFB57 /* Assets.xcassets in Resources */,
-				762C52D324EE5446008DFB57 /* Main.storyboard in Resources */,
+				762C52F124EEA82A008DFB57 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9030334AC7DAFB3DAC67DC86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LXLayoutModule/Pods-LXLayoutModule-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LXLayoutModule/Pods-LXLayoutModule-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LXLayoutModule/Pods-LXLayoutModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA61CB47D25CD5954AE8A712 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXLayoutModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		762C52C424EE5446008DFB57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				762C52D024EE5446008DFB57 /* ViewController.swift in Sources */,
+				762C52D024EE5446008DFB57 /* LineViewController.swift in Sources */,
 				762C52CC24EE5446008DFB57 /* AppDelegate.swift in Sources */,
-				762C52CE24EE5446008DFB57 /* SceneDelegate.swift in Sources */,
+				762C52ED24EEA67A008DFB57 /* NormalViewController.swift in Sources */,
+				762C52F024EEA82A008DFB57 /* MainViewController.swift in Sources */,
+				762C52EB24EEA2F1008DFB57 /* WaterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		762C52D124EE5446008DFB57 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				762C52D224EE5446008DFB57 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		762C52D624EE5447008DFB57 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,10 +354,13 @@
 		};
 		762C52DD24EE5447008DFB57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC5E5A33C27426EB32C384D2 /* Pods-LXLayoutModule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4ACXVJNVR;
 				INFOPLIST_FILE = LXLayoutModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +374,13 @@
 		};
 		762C52DE24EE5447008DFB57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55DC16981A4DCA7235108331 /* Pods-LXLayoutModule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4ACXVJNVR;
 				INFOPLIST_FILE = LXLayoutModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
