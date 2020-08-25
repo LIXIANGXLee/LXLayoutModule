@@ -27,7 +27,7 @@
 		762C52D424EE5447008DFB57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		762C52D724EE5447008DFB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		762C52D924EE5447008DFB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		762C52DF24EE561B008DFB57 /* LXLayoutManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LXLayoutManager.podspec; sourceTree = "<group>"; };
+		762C52DF24EE561B008DFB57 /* LXLayoutManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LXLayoutManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		762C52EA24EEA2F1008DFB57 /* WaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterViewController.swift; sourceTree = "<group>"; };
 		762C52EC24EEA67A008DFB57 /* NormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
 		762C52EE24EEA82A008DFB57 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };

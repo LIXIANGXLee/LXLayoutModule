@@ -19,6 +19,7 @@ class NormalViewController: UIViewController {
             
             showLayoutView.dataSource = self
             showLayoutView.delegate = self
+            showLayoutView.isPagingEnabled =  true
             view.addSubview(showLayoutView)
             
             

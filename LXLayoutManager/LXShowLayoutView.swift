@@ -86,6 +86,13 @@ public class LXShowLayoutView: UIView {
     
     public weak var waterSource: LXShowLayoutViewWaterSource?
 
+    /// 是否可以分页
+    public var isPagingEnabled: Bool? {
+        didSet {
+            guard let isPagingEnabled = isPagingEnabled else { return }
+            collectionView.isPagingEnabled = isPagingEnabled
+        }
+    }    
 }
 
 // MARK: - UICollectionViewDelegateFlowLayout
