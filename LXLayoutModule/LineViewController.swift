@@ -19,6 +19,8 @@ class LineViewController: UIViewController {
         
         showLayoutView.dataSource = self
         showLayoutView.delegate = self
+        
+        showLayoutView.isLineFlowLayoutScale = true
         view.addSubview(showLayoutView)
         
         
@@ -41,7 +43,7 @@ extension LineViewController: LXShowLayoutViewDelegate {
     
     
     func showLayoutView(_ showLayoutView: LXShowLayoutView, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return 0.001
+        return 8
     }
     
     func showLayoutView(_ showLayoutView: LXShowLayoutView, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
@@ -67,7 +69,7 @@ extension LineViewController: LXShowLayoutViewDataSource {
     func showLayoutView(_ showLayoutView: LXShowLayoutView, collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
-        cell.backgroundColor = UIColor.red
+        cell.backgroundColor = (indexPath.row % 2 == 0) ? UIColor.red :  UIColor.blue
         return cell
     }
     

@@ -92,7 +92,16 @@ public class LXShowLayoutView: UIView {
             guard let isPagingEnabled = isPagingEnabled else { return }
             collectionView.isPagingEnabled = isPagingEnabled
         }
-    }    
+    }
+    
+    
+    /// 线性布局时 是否放大缩小
+    public var isLineFlowLayoutScale: Bool? {
+        didSet {
+            linelayOut.isLineFlowLayoutScale = isLineFlowLayoutScale
+        }
+    }
+
 }
 
 // MARK: - UICollectionViewDelegateFlowLayout

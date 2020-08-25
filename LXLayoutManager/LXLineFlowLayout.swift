@@ -10,7 +10,9 @@ import UIKit
 
 // MARK: - 线性布局
 class LXLineFlowLayout: UICollectionViewFlowLayout {
-       
+    
+    public var isLineFlowLayoutScale: Bool?
+    
     override func prepare() {
         super.prepare()
         /*
@@ -35,7 +37,10 @@ class LXLineFlowLayout: UICollectionViewFlowLayout {
         let  centerX = self.collectionView!.frame.size.width / 2 + self.collectionView!.contentOffset.x
         for atts in attsArray  {
             let space = abs(atts.center.x - centerX);
-            let scale = 1 - (space/self.collectionView!.frame.size.width * 0.35);
+            var scale = 1 - (space/self.collectionView!.frame.size.width * 0.35);
+            if let isScale  = isLineFlowLayoutScale , isScale {
+                scale = 1.0
+            }
             atts.transform = CGAffineTransform(scaleX: scale, y: scale)
             
         }
