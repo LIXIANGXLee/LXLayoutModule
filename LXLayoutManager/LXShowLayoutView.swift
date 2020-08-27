@@ -104,6 +104,15 @@ public class LXShowLayoutView: UIView {
 
 }
 
+//MARK: - public
+extension LXShowLayoutView {
+    
+    /// 刷新数据
+    public func reloadData() {
+        self.collectionView.reloadData()
+    }
+}
+
 // MARK: - UICollectionViewDelegateFlowLayout
 extension LXShowLayoutView: UICollectionViewDelegateFlowLayout {
     
